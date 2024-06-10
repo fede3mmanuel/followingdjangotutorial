@@ -13,6 +13,14 @@
     <script src="{% static 'js/main.js' %}" defer></script>
 </head>
 <body>
-    
+    <nav>
+        <a href="/">H</a> | 
+        <a href="/about">a</a> | 
+        <a href="/">news</a> | 
+    </nav>
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
 </body>
 </html>
